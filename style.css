@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    padding: 0;
+    transition: 1s ease;
+}
+body{
+    display: flex;
+    justify-content: center;
+}
+#slider{
+    width: 1000px;
+    height: 800px;
+    border: 1px red solid;
+    overflow: hidden;
+    display: flex;
+}
+.button{
+    background-color: black;
+    opacity: 0.25;
+    width: 50px;
+    height: 100px;
+    align-self: center;
+}
+.panels > img{
+    width: 1000px;
+    height: 800px;
+}
+#p3{
+    filter: invert(1);
+}
+#p4{
+    filter: invert(1);
+}
+
+
+#main{
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+#points {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+}
+#points>button{
+    color: black;
+    border: 1px solid black;
+    width: 30px;
+    height: 30px;
+    background-color: white;
+    border-radius: 15px;
+}
